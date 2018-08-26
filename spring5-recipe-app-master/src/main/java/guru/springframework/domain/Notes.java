@@ -8,12 +8,10 @@ import javax.persistence.Lob;
 import javax.persistence.OneToOne;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
-//@Data
-@Getter
-@Setter
+@Data
+//@Getter
+//@Setter
 @Entity
 public class Notes {
 
