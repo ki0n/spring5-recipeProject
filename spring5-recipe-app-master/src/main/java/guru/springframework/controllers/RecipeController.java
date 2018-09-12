@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import guru.springframework.services.RecipeService;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @Controller
 public class RecipeController {
 
